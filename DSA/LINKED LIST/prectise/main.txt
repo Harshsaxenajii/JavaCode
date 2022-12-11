@@ -1,0 +1,22 @@
+ // delete the nth node
+    public void nthLast(int n) {
+        int i = 0;
+        while (head != null) {
+            i = i + 1;
+            head = head.next;
+        }
+        System.out.println(i); // size of the linklist
+        int j = i - n;
+        Node currNode = head;
+        int num = 1;
+        // for delete the curr.next node
+        while (num != j) {
+            num++;
+            currNode = currNode.next;
+        }
+        if (num == j) {
+
+            currNode.next = currNode.next.next;
+            return;
+        }
+    }

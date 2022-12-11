@@ -1,0 +1,5 @@
+1- fibonacci series
+2- factiorial
+3- bubble sorting
+4- selection sorting
+5- insertion sorting

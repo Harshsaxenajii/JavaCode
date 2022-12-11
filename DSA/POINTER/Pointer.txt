@@ -1,0 +1,1 @@
+Java do not use pointers because using pointer the memory area can be directly accessed, which is a security issue. pointers need so memory spaces at the runtime. to reduce the usage of memory spaces java does not support pointers
